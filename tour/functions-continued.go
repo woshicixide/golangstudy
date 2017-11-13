@@ -10,4 +10,5 @@ func add(x, y int) int {
 
 func main() {
 	fmt.Println(add(42, 13))
+	fmt.Println(add(3, 54))
 }
