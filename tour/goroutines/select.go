@@ -26,6 +26,7 @@ func main() {
 		for i := 0; i < 10; i++ {
 			fmt.Println(<-c)
 		}
+		fmt.Println("aaa")
 
 		quit <- 0
 	}()
